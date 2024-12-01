@@ -22,8 +22,8 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MYAPPLICATION_C1475 }}'
+          firebaseServiceAccount: '${{ secrets.WEB_FIREBASE }}'
           channelId: live
-          projectId: myapplication-c1475
+          projectId: wash-and-dry-a74e0
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
